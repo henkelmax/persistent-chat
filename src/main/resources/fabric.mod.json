@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "persistentchat",
+  "version": "${version}",
+  "name": "PersistentChat",
+  "description": "Persistent Chat",
+  "authors": [
+    "Max Henkel"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.maxhenkel.persistentchat.PersistentChat"
+    ]
+  },
+  "mixins": [
+    "persistentchat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_dependency}",
+    "java": ">=17"
+  }
+}

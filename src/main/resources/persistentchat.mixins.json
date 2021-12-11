@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.4",
+  "package": "de.maxhenkel.persistentchat.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "ChatComponentMixin",
+    "GuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
